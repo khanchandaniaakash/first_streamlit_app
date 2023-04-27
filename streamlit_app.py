@@ -33,7 +33,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # converting data into cloumns
 streamlit.dataframe(fruityvice_normalized)
 
-except URLError as e:
+#except URLError as e:
 #don't run anything paste here while we troubleshoot
 streamlit.stop()
 
